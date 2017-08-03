@@ -7,6 +7,6 @@ var marker = new google.maps.Marker({
 });
 ```
 
-Add this code to your page anywhere that meets the following criteria:
-- It is after the `initMap()` function - because we need the map to be created before we can add markers to it
-- It is between `<script>` and `</script>` tags - because it is JavaScript code
+Add this code to your page, but be careful to check that the code is
+- after the `initMap()` function - because we need the map to be created before we can add markers to it
+- between `<script>` and `</script>` tags - because it is JavaScript code
