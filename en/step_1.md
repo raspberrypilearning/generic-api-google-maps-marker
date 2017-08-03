@@ -1,19 +1,12 @@
-## Introduction
++ This code creates a `google.maps.Marker` object. We set the position of the marker at a particular latitude and longitude, and tell it which map to add itself to - in this case the map is called `mymap`.
 
-Add project description here. What will learners be making?
+```javascript
+var marker = new google.maps.Marker({
+  position: {lat: 52.194470, lng: 0.134618 },
+  map: mymap
+});
+```
 
-### What you will make
-
-Add something here to showcase here, for example:
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
-
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
-
-### What you will learn
-
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+Add this code to your page anywhere that meets the following criteria:
+- It is after the `initMap()` function - because we need the map to be created before we can add markers to it
+- It is between `<script>` and `</script>` tags - because it is JavaScript code
