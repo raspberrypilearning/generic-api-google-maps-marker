@@ -2,7 +2,7 @@
 
 ```javascript
 var marker = new google.maps.Marker({
-  position: {lat: 52.194470, lng: 0.134618 },
+  position: {lat: 52.206727, lng: 0.124450 },
   map: mymap
 });
 ```
