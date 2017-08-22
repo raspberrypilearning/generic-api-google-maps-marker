@@ -1,6 +1,6 @@
 title: Add a marker to a Google map
 hero_image: images/banner.png
-description: Learn how to add a marker to a Google map and customise it as you wish
+description: Learn how to add a marker to a Google map
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 # possible values: 1, 2 or 3
 listed: false
@@ -11,4 +11,4 @@ interests: "games, jokes/pranks, music/sound, photography, physical computing, r
 technologies: "electronics, sense-hat, physical computing, html/css, scratch, python"
 site_areas:
 steps:
-  - title: Introduction
+  - title: Step 1
